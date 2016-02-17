@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options: 'blue', 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=.75]{geometry}
+%\geometry{margin=1in}
+\usepackage{multicol}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\vspace{-1cm}
+\name{Paul}{Davis}
+\address{6 Oakglade Dr}{Hummelstown}{PA}
+\phone[mobile]{(717) 756-2214} 
+\email{pauldavis@pitt.edu}
+\homepage{https://github.com/pndavis}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace{-1cm}
+\section{Education}
+\cventry{2014--2018}{Computer Science}{University of
+  Pittsburgh}{Pittsburgh}{\textit{3.1 GPA}}{Relevant Courses:
+\vspace{-.4cm}
+\begin{multicols}{2}
+  \begin{itemize}
+  \item Discrete Math
+  \item Data Structures
+  \item Computer Organization
+  \item Systems Programming
+  \item Algorithm Implementation (In progress)
+  \end{itemize}
+\end{multicols}}
+\vspace{-.5cm}
+
+\section{Work Experience}
+\cventry{Summer 2015}{Cashier}{Hershey Park}{Hershey}{}{}
+\cventry{2013--2015}{Computer Technician}{Freelance}{Hershey}{}{Fixed
+  people's tech problems ranging from upgrading iPhones to fixing
+  email ports}
+
+\section{Computer skills}
+\cvitem{Java}{4 Years}
+\cvitem{Git}{2 Years}
+\cvitem{Unix}{2 Years}
+\cvitem{C}{2 Years}
+
+\section{Leadership Roles}
+\cventry{2011--2014}{Team Member}{$\sqrt{-1}$magine It FIRST Robotics}{}{}{
+\begin{itemize}
+\item Designed, built, and programmed multiple robot
+\item Team qualified for World Championship (2013 and 2014)
+\item Mentored new freshmen
+\end{itemize}}
+
+\cventry{2010--2015}{Student Leader}{Hershey Free Church Youth Group}{}{}{
+\begin{itemize}
+\item Led and scheduled student events
+\item Ran sound and visuals
+\end{itemize}}
+
+\section{Volunteer work}
+\begin{itemize}
+\item {Missions Trips
+    \begin{itemize}
+    \item 2013 Santo Domingo, Dominican Republic
+    \item 2012 New Orleans, Louisiana
+    \item 2011 Butler, Pennsylvania
+    \item 2010 Butler, Pennsylvania
+    \end{itemize}}
+\end{itemize}
+
+\end{document}
