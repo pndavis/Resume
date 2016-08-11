@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 JUL 2016 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 AUG 2016 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,7 +730,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 51.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 51.
 
-No file Backup.aux.
+(./Backup.aux)
 \openout1 = `Backup.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -750,10 +750,9 @@ LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Try loading font information for T1+qpl on input line 51.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/t1qpl.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/t1qpl.fd
 File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-)
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count132
 \scratchdimen=\dimen150
@@ -852,9 +851,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
+
+(./Backup.out) (./Backup.out)
 \@outlinefile=\write3
 \openout3 = `Backup.out'.
 
+\pagenumberwidth=\skip78
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 54.
 
@@ -904,8 +908,6 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 57.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 57.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
@@ -919,7 +921,7 @@ Underfull \hbox (badness 10000) detected at line 66
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 83.
 
-Underfull \hbox (badness 10000) detected at line 85
+Underfull \hbox (badness 10000) detected at line 86
 \T1/lmss/m/n/8 .
  []
 
@@ -927,54 +929,45 @@ Underfull \hbox (badness 10000) detected at line 85
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 89.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 90.
 
 
-LaTeX Warning: Citation `book1' on page 2 undefined on input line 110.
+LaTeX Warning: Citation `book1' on page 2 undefined on input line 111.
 
 
-Overfull \hbox (340.59709pt too wide) in paragraph at lines 118--118
+Overfull \hbox (340.59709pt too wide) in paragraph at lines 119--119
 [][][]| 
  []
 
 No file Backup.bbl.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
 [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (./Backup.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package rerunfilecheck Info: File `Backup.out' has not changed.
+(rerunfilecheck)             Checksum: 28811090CB3F7C92F13E397F5EF073EF;1069.
 
-
-Package rerunfilecheck Warning: File `Backup.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Backup.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  28811090CB3F7C92F13E397F5EF073EF;1069.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 17699 strings out of 493089
- 296414 string characters out of 6134842
- 377408 words of memory out of 5000000
- 20956 multiletter control sequences out of 15000+600000
+ 17717 strings out of 493089
+ 296616 string characters out of 6134842
+ 378536 words of memory out of 5000000
+ 20968 multiletter control sequences out of 15000+600000
  64518 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,45p,10365b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -996,10 +989,10 @@ usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-
 dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Backup.pdf (3 pages, 217958 bytes).
+Output written on Backup.pdf (3 pages, 219561 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  15 named destinations out of 1000 (max. 500000)
- 22017 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22105 words of extra memory for PDF output out of 24883 (max. 10000000)
 
