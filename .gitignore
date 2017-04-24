@@ -1,0 +1,6 @@
+_region_.tex
+Backup/
+*.aux
+*.log
+*.out
+*.gz
